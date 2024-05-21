@@ -73,6 +73,7 @@ body{
   
 } 
 /* day7 */
+/* 331 */
 .sidebar-scroll:hover::-webkit-scrollbar-thumb{
     background: transparent;
     width: 10px;
@@ -321,7 +322,6 @@ hr{
     left:0;
     right:0;
     padding: 12px 40px;
-   
 }
 
 .preview h4{
