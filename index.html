@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style1.css">
     <link rel="icon"
         href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/168px-Spotify_logo_without_text.svg.png?20160123212544">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -13,65 +13,68 @@
 
     <title>Spotyfy-Web Player: Music for everyone</title>
 </head>
+
 <body>
-     <div class="alldiv">
-        <div class="main">
-          <div class="side-bar">
-            <div class="menu">
-                <div class="logo">
-                    <a href=""><img src="/images/logo-new.png" alt=""></a>
+
+
+    <div class="main">
+        <div class="container">
+            <div class="side-bar">
+                <div class="menu">
+                    <div class="logo">
+                        <a href=""><img src="/images/logo-new.png" alt=""></a>
+                    </div>
+                    <div class="menu-item">
+                        <ul>
+                            <li class="home">
+                                <img src="images/home.svg" alt="">
+                                <span>Home</span>
+                            </li>
+                            <li class="search">
+                                <img src="images/search.svg" alt="">
+                                <span>Search</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="menu-item">
-                    <ul class="image">
-                        <li class="home">
-                            <img src="images/home.svg" alt="">
-                            <span>Home</span>
-                        </li>
-                        <li class="search">
-                            <img src="images/search.svg" alt=""> 
-                             <span>Search</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
                 <div class="side-main">
-                        <div class="library">
-                            <header>
-                                <div class="head-cont">
-                                    <div class="h-left">
-                                        <img src="images/library.svg" alt="">
-                                        <div class="text">
-                                         <span>Your Library</span>
-                                        </div>
-                                    </div>
-                                    <button class="plus">
-                                        <img src="images/plus.svg" alt="">
-                                    </button>
+                    <div class="library">
+
+                        <div class="head-cont">
+                            <div class="h-left">
+                                <img src="images/library.svg" alt="">
+                                <div class="text">
+                                    <span>Your Library</span>
                                 </div>
-                            </header>
-                           <div class="inside">
-                             <section class="playlist">
+                            </div>
+                            <button class="plus">
+                                <img src="images/plus.svg" alt="">
+                            </button>
+                        </div>
+
+                        <div class="inside">
+                            <section class="playlist">
                                 <div class="disc">
-                                  <h4>Create your first playlist</h4>
-                                  <p>It's easy, we'll help you</p>
+                                    <h4>Create your first playlist</h4>
+                                    <p>It's easy, we'll help you</p>
                                 </div>
                                 <div class="button">
-                                  <button>Create playlist</button>
+                                    <button>Create playlist</button>
                                 </div>
-                             </section>
-                             <section class="prodcast">
+                            </section>
+                            <section class="prodcast">
                                 <div class="disc">
                                     <h4>Let's find some podcast to follow</h4>
                                     <p>We'll keep you update on new episodes</p>
                                 </div>
                                 <div class="button2">
-                                  <button>Browse podcasts</button>
+                                    <button>Browse podcasts</button>
                                 </div>
-                             </section>
-                           </div>
+                            </section>
+                        </div>
                     </div>
                     <div class="side-bottom">
-                        <div class="content">
+                        <div class="link-cont">
                             <ul>
                                 <li>
                                     <a href="">Legal</a>
@@ -93,22 +96,464 @@
                         </div>
                     </div>
                 </div>
-                
+            </div>
+            <!-- sidebar ends -->
+            <!-- main-content  starts-->
+            <div class="content">
+
+                <div class="head">
+
+                    <div class="left-cont">
+                        <button class="arrow1"><img src="images/left.svg"></button>
+                        <button class="arrow2"><img src="images/right(1).svg"></button>
+                    </div>
+                    <div class="right-cont">
+                        <button class="signup">Sign up</button>
+                        <button class="login">Log in</button>
+                    </div>
+                </div>
+
+
+                <!-- picture starts -->
+                <div class="cont-main">
+
+                    <div class="artist">
+                        <div class="art-head">
+                            <div class="art-right">
+                                <h2>Popular artists</h2>
+                            </div>
+                            <div class="art-left">
+                                <p>Show all</p>
+                            </div>
+                        </div>
+                        <div class="persons">
+                            <div class="single">
+                                <div class="img-btn">
+                                    <div class="img">
+                                        <img src="https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca">
+                                    </div>
+                                    <div class="play-btn">
+                                        <span><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="disc">
+                                    <h4>Pritam</h4>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="single">
+                                <div class="img-btn">
+                                    <div class="img">
+                                        <img src="https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca">
+                                    </div>
+                                    <div class="play-btn">
+                                        <span><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="disc">
+                                    <h4>Pritam</h4>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="single">
+                                <div class="img-btn">
+                                    <div class="img">
+                                        <img src="https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca">
+                                    </div>
+                                    <div class="play-btn">
+                                        <span><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="disc">
+                                    <h4>Pritam</h4>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="single">
+                                <div class="img-btn">
+                                    <div class="img">
+                                        <img src="https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca">
+                                    </div>
+                                    <div class="play-btn">
+                                        <span><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="disc">
+                                    <h4>Pritam</h4>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="single">
+                                <div class="img-btn">
+                                    <div class="img">
+                                        <img src="https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca">
+                                    </div>
+                                    <div class="play-btn">
+                                        <span><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="disc">
+                                    <h4>Pritam</h4>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="single">
+                                <div class="img-btn">
+                                    <div class="img">
+                                        <img src="https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca">
+                                    </div>
+                                    <div class="play-btn">
+                                        <span><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="disc">
+                                    <h4>Pritam</h4>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+                            <div class="single">
+                                <div class="img-btn">
+                                    <div class="img">
+                                        <img src="https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca">
+                                    </div>
+                                    <div class="play-btn">
+                                        <span><i class="fa-solid fa-play"></i></span>
+                                    </div>
+                                </div>
+                                <div class="disc">
+                                    <h4>Pritam</h4>
+                                    <p>Artist</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="albums">
+
+                    </div>
+                    <div class="radio">
+
+                    </div>
+                    <div class="featured">
+
+                    </div>
+                    <div class="playlist">
+
+                    </div>
+                    <div class="original">
+
+                    </div>
+                    <div class="episodes">
+
+                    </div>
+                    <div class="footer">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="banner">
+        <div class="preview">
+            <div class="text">
+                <h4>Preview of Spotify</h4>
+                <p>Sign to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+            </div class="button">
+            <button>Sighn Up Free</button>
+        </div>
+    </div>
+    </div>
+
+    <!-- <div class="main">
+    <div class="side-bar">
+        <div class="menu">
+            <div class="logo">
+                <a href=""><img src="/images/logo-new.png" alt=""></a>
+            </div>
+            <div class="menu-item">
+                <ul class="image">
+                    <li class="home">
+                        <img src="images/home.svg" alt="">
+                        <span>Home</span>
+                    </li>
+                    <li class="search">
+                        <img src="images/search.svg" alt="">
+                        <span>Search</span>
+                    </li>
+                </ul>
             </div>
         </div>
-     </div>
+        <div class="side-main">
+            <div class="library">
+                <header>
+                    <div class="head-cont">
+                        <div class="h-left">
+                            <img src="images/library.svg" alt="">
+                            <div class="text">
+                                <span>Your Library</span>
+                            </div>
+                        </div>
+                        <button class="plus">
+                            <img src="images/plus.svg" alt="">
+                        </button>
+                    </div>
+                </header>
+                <div class="inside">
+                    <section class="playlist">
+                        <div class="disc">
+                            <h4>Create your first playlist</h4>
+                            <p>It's easy, we'll help you</p>
+                        </div>
+                        <div class="button">
+                            <button>Create playlist</button>
+                        </div>
+                    </section>
+                    <section class="prodcast">
+                        <div class="disc">
+                            <h4>Let's find some podcast to follow</h4>
+                            <p>We'll keep you update on new episodes</p>
+                        </div>
+                        <div class="button2">
+                            <button>Browse podcasts</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="side-bottom">
+                <div class="content">
+                    <ul>
+                        <li>
+                            <a href="">Legal</a>
+                            <a href="">Safety & Privacy</a>
+                            <a href="">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="">Cookies</a>
+                            <a href="">About Ads</a>
+                            <a href="">Accessibility</a>
+                        </li>
+                        <li>
+                            <a href="">Cookies</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="eng-btn">
+                    <button><img src="images/glob.svg" alt="">English</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
 
 
+    t/hes
+    <div class="main-right">
+        
+            <div class="head">
+                <div class="items">
+                    <div class="left-cont">
+                        <button class="arrow"><img src="images/left.svg"></button>
+                        <button class="arrow"><img src="images/right(1).svg"></button>
+                    </div>
+                    <div class="right-cont">
+                        <button class="signup">Sign up</button>
+                        <button class="login">Log in</button>
+                    </div>
+                </div>
+            </div>
 
+            <div class="mainview-container">
 
-<footer>
-     <div class="preview">
-        <div class="text">
-            <h4>Preview of Spotify</h4>
-            <p>Sign to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
-        </div class="button">
+                <section class="container">
+
+                    <div class="art-head">
+
+                        <div class="popular">
+                            <h2>Popular artists</h2>
+                        </div>
+                        <div class="showall">
+                        <p>Show all</p>
+
+                    </div>
+                    <div class="directors">
+                        <div class="singers">
+                            <div class="img-btn">
+                                <div class="card">
+                                    <div class="image">
+                                        <img src="https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca">
+                                    </div>
+                                </div>
+                                <div class="play-btn">
+                                    <button><img src="images/play-btn(1).svg"></button>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <span>Pritam</span>
+                                </div>
+                                <div class="role">
+                                    <p>Artist</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="singers">
+                            <div class="img-btn">
+                                <div class="card">
+                                    <div class="image">
+                                        <img src="https://i.scdn.co/image/ab676161000051740261696c5df3be99da6ed3f3">
+                                    </div>
+                                </div>
+                                <div class="play-btn">
+                                    <button><img src="images/play-btn(1).svg"></button>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <span>Arjith Singh</span>
+                                </div>
+                                <div class="role">
+                                    <p>Artist</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="singers">
+                            <div class="img-btn">
+                                <div class="card">
+                                    <div class="image">
+                                        <img src="https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c">
+                                    </div>
+                                </div>
+                                <div class="play-btn">
+                                    <button><img src="images/play-btn(1).svg"></button>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <span>A.R.Rahman</span>
+                                </div>
+                                <div class="role">
+                                    <p>Artist</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="singers">
+                            <div class="img-btn">
+                                <div class="card">
+                                    <div class="image">
+                                        <img src="https://i.scdn.co/image/ab67616100005174fc7c542c04b5f7dc8f1b1c16">
+                                    </div>
+                                </div>
+                                <div class="play-btn">
+                                    <button><img src="images/play-btn(1).svg"></button>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <span>Anirudh Ravichander</span>
+                                </div>
+                                <div class="role">
+                                    <p>Artist</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="singers">
+                            <div class="img-btn">
+                                <div class="card">
+                                    <div class="image">
+                                        <img src="https://i.scdn.co/image/ab67616100005174fb13d10be20fdcb5a670f551">
+                                    </div>
+                                </div>
+                                <div class="play-btn">
+                                    <button><img src="images/play-btn(1).svg"></button>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <span>Vishal Mishra</span>
+                                </div>
+                                <div class="role">
+                                    <p>Artist</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="singers">
+                            <div class="img-btn">
+                                <div class="card">
+                                    <div class="image">
+                                        <img src="https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf">
+                                    </div>
+                                </div>
+                                <div class="play-btn">
+                                    <button><img src="images/play-btn(1).svg"></button>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <span>Vishal-Shekhar</span>
+                                </div>
+                                <div class="role">
+                                    <p>Artist</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="singers">
+                            <div class="img-btn">
+                                <div class="card">
+                                    <div class="image">
+                                        <img src="https://i.scdn.co/image/ab67616100005174eddbb664c4723f268a60d8c1">
+                                    </div>
+                                </div>
+                                <div class="play-btn">
+                                    <button><img src="images/play-btn(1).svg"></button>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <div class="name">
+                                    <span>Badshah</span>
+                                </div>
+                                <div class="role">
+                                    <p>Artist</p>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+
+       </div>
+
+    </div>
+    <div class="footer">
+        <footer>
+            <div class="preview">
+                <div class="text">
+                    <h4>Preview of Spotify</h4>
+                    <p>Sign to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+                </div class="button">
                 <button>Sighn Up Free</button>
-     </div>
-</footer>
+            </div>
+        </footer>
+    </div>
+ -->
 </body>
+
 </html>
